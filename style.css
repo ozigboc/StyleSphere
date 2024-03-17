@@ -354,14 +354,14 @@ input[type=submit]:hover {
     @media all and (max-width 600px) {
     
         nav {
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
     
         }
         
         nav ul {
             width: 100%;
-            flex-direction: column;
+            flex-direction: row;
             align-items: stretch;
             margin: 0;
             padding: 0;
@@ -375,7 +375,7 @@ input[type=submit]:hover {
         }
 
         .container {
-            flex-direction: column;
+            flex-direction: row;
         }
         .container .map {
             margin-left: 0px;
